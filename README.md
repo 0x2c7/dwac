@@ -1,4 +1,4 @@
-# dwac (Dark Wing Acceses Control)
+# dwac access controll
 ## Introduce
   Dwac is a simple solution for multi-program access control on Linux. It helps you prevent the access to specific sites you define. By using a general filter standing at the DNS lookup process, the program can block request from any browser or any program using normal HTTP request. Hopefully, this is safe enough for normal users :)
   

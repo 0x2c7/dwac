@@ -98,11 +98,12 @@ function dwac_help {
   echo
   echo -e '2. Usage'
   echo -e '  \e[39mdwac help \tDisplay information about this program'
-  echo -e '  dwac status \tRunning status and sites blocked'
   echo -e '  dwac add [site] \tAdd a site to the blocked list'
   echo -e '  dwac remove [site] \tRemove a site from the block list'
+  echo -e '  dwac list \tList all blocked sites added'
   echo -e '  dwac start \tStart program. When program is running. Your /etc/hosts will be replaced'
   echo -e '  dwac stop \tStop program. After program is stopped. Your /etc/hosts will be reversed'
+  echo -e '  dwac status \tRunning status'
   echo -e '  dwac restart \tRestart program'
   echo
   echo -e '3. Credit'
